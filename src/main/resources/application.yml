@@ -1,0 +1,13 @@
+server:
+  port: 12050
+  context-path: /auth
+
+security.basic.enable: false
+
+couchbase:
+  host: localhost
+  bucket:
+    name: app
+    user:
+      name: <COUCHBASE 5.0 SECURITY USERNAME>
+      password: <COUCHBASE 5.0 SECURITY PASSWORD>
